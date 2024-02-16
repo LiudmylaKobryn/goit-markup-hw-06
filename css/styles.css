@@ -38,6 +38,8 @@ button {
 }
 img {
   display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 .container {
   width: 320px;
@@ -259,8 +261,10 @@ img {
 /*---------------TEAM--------------- */
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding: 96px 12px;
 }
+
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -269,13 +273,17 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
-
   margin-bottom: 72px;
 }
 .team-list {
+  /* display: flex;
+  justify-content: center; */
+  /* gap: 24px; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 24px;
+  gap: 72px;
+  align-items: center;
 }
 .list {
 }
@@ -790,3 +798,5 @@ img {
     line-height: 1.2;
   }
 }
+
+/*---------------TEAM-ADAPTIVE--------------- */
