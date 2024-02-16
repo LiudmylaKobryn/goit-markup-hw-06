@@ -755,3 +755,38 @@ img {
     text-align: left;
   }
 }
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+  }
+  .benefits {
+    padding: 120px 0;
+  }
+  .benefits-list {
+    display: flex;
+    gap: 24px;
+  }
+  .benefits-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+  .benefits-icon {
+    display: block;
+  }
+  .benefits-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .benefits-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
