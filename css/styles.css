@@ -347,7 +347,7 @@ img {
   fill: #f4f4fd;
   stroke: #f4f4fd;
 }
-.products-title {
+/* .products-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -361,7 +361,7 @@ img {
 .list {
 }
 .products-item {
-}
+} */
 /*---------------PORTFOLIO--------------- */
 .portfolio-section {
   padding-top: 120px;
@@ -800,3 +800,32 @@ img {
 }
 
 /*---------------TEAM-ADAPTIVE--------------- */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .team-section {
+    padding: 96px 0;
+  }
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+  .team-section {
+    padding: 120px 0;
+  }
+  .team-list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+}
