@@ -891,13 +891,48 @@ img {
   .container {
     width: 768px;
   }
+  .footer {
+    padding-left: 92px;
+  }
   .footer-container-class {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+  .footer-container {
+    align-items: start;
   }
   .footer-soc-container {
     align-items: start;
+  }
+  .footer-email {
+    align-items: start;
+  }
+  .footer-form {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+  .footer {
+    padding: 100px 0;
+  }
+  .footer-container {
+    margin-right: 120px;
+  }
+  .footer-container-class {
+    margin: 0 auto;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: unset;
+  }
+  .footer-email {
+    margin-left: 80px;
   }
 }
