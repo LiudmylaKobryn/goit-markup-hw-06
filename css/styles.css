@@ -173,7 +173,6 @@ img {
   gap: 24px;
   display: flex;
   flex-direction: column-reverse;
-  margin-bottom: 48px;
 }
 .mob-menu-contacts-link {
   font-style: normal;
@@ -190,7 +189,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 8px;
+  margin-top: 48px;
   gap: 40px;
 }
 .mob-menu-soc-item {
