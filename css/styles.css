@@ -42,7 +42,7 @@ img {
   margin: 0 auto;
 }
 .container {
-  max-width: 320px;
+  width: 320px;
   /* padding-left: 15px;
   padding-right: 15px; */
   padding: 0 16px;
