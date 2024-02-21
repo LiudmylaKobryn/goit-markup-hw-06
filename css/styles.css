@@ -936,6 +936,17 @@ img {
     width: 1158px;
     padding: 0 15px;
   }
+  .header-logo {
+    margin-right: 76px;
+  }
+  .address {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .header-contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }
 /*---------------HERO-ADAPTIVE--------------- */
 @media screen and (min-width: 768px) {
