@@ -1059,7 +1059,7 @@ img {
 /*---------------FOOTER-ADAPTIVE--------------- */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 584px;
   }
   .footer {
     padding-left: 92px;
